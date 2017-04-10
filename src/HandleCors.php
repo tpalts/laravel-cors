@@ -1,12 +1,11 @@
 <?php namespace Barryvdh\Cors;
 
 use Closure;
-use Exception;
+use Asm89\Stack\CorsService;
 use Illuminate\Contracts\Events\Dispatcher;
 use Illuminate\Foundation\Http\Events\RequestHandled;
 use Symfony\Component\HttpFoundation\Request;
 use Symfony\Component\HttpFoundation\Response;
-use Throwable;
 
 class HandleCors
 {
